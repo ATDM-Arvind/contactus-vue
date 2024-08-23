@@ -7,7 +7,7 @@ export default defineConfig({
       preserveEntrySignatures: "exports-only",
       output: {
         exports: "auto",
-        format: "esm",
+        format: "systemjs",
         entryFileNames: "[name].js",
       },
     },
