@@ -4,10 +4,10 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: "src/acc-contactus.ts",
-      preserveEntrySignatures: "exports-only",
+      preserveEntrySignatures: "strict",
       output: {
         exports: "auto",
-        format: "systemjs",
+        format: "esm",
         entryFileNames: "[name].js",
       },
     },
